@@ -1,0 +1,13 @@
+.interface__container {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.interface__content {
+  margin-bottom: 47px;
+}
+
+.interface__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
