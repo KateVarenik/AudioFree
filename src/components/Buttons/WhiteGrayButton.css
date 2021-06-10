@@ -10,4 +10,9 @@
   font-size: 14px;
   line-height: 16px;
   color: #393939;
+  transition: 0.3s;
+}
+
+.button__white-gray:hover {
+  background-color: rgb(245 243 243);
 }

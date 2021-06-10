@@ -3,21 +3,31 @@ import InStock from "./InStock/InStock";
 import Compare from "../../Icons/Compare";
 import Heart from "../../Icons/Heart";
 import Star from "../../Icons/Star/Star";
+import { useState } from "react";
 import PurpleButton from "../../Buttons/PurpleButton";
 import WhiteGrayButton from "../../Buttons/WhiteGrayButton";
 
 export default function CardProduct({ price, title, rate, currency, image }) {
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [isCompare, setIsCompare] = useState(false);
+
   return (
     <div className="card">
       <div className="card__top">
         <InStock />
         <div className="card__top-buttons">
-          <div className="card__top-button">
+          <button
+            className={`card__top-button ${isCompare && "active"}`}
+            onClick={() => setIsCompare((prevIsCompare) => !prevIsCompare)}
+          >
             <Compare />
-          </div>
-          <div className="card__top-button">
+          </button>
+          <button
+            className={`card__top-button ${isFavorite && "active"}`}
+            onClick={() => setIsFavorite((prevIsFavorite) => !prevIsFavorite)}
+          >
             <Heart />
-          </div>
+          </button>
         </div>
       </div>
       <div className="card__photo">
@@ -48,8 +58,8 @@ export default function CardProduct({ price, title, rate, currency, image }) {
         </div>
       </div>
       <div className="card__buttons">
-        <PurpleButton />
-        <WhiteGrayButton />
+        <PurpleButton>Купить в 1 клик</PurpleButton>
+        <WhiteGrayButton>В корзину</WhiteGrayButton>
       </div>
     </div>
   );

@@ -70,6 +70,17 @@
   cursor: pointer;
   margin-left: 11px;
   font-size: 22px;
+  color: #464646;
+  transition: 0.3s;
+}
+
+.card__top-button:hover {
+  background-color: #def7dd;
+}
+
+.card__top-button.active {
+  color: #fff;
+  background-color: #0db10a;
 }
 
 .card__photo {

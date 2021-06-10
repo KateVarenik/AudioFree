@@ -52,24 +52,6 @@
   color: #8772c2;
 }
 
-.slider__button {
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  border-radius: 220px;
-  padding: 22px 104px;
-  background-color: transparent;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 15px;
-  text-align: center;
-  color: #ffffff;
-  transition: 0.3s;
-}
-
-.slider__button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .slider__photo {
   position: absolute;
   top: 40%;

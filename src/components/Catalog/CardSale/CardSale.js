@@ -11,7 +11,7 @@ export default function CardSale() {
         За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые
         версии появились по ошибке, некоторые - намеренно{" "}
       </p>
-      <GreenButton />
+      <GreenButton>В каталог скидок</GreenButton>
     </div>
   );
 }

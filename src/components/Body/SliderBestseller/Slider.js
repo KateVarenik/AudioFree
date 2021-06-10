@@ -5,6 +5,7 @@ import SwiperCore, { Pagination } from "swiper";
 import "swiper/swiper.scss";
 import "swiper/components/pagination/pagination.scss";
 import "./Slider.css";
+import SliderButton from "../../Buttons/SliderButton";
 
 SwiperCore.use([Pagination]);
 
@@ -24,7 +25,7 @@ export default function SliderBestseller() {
               <p className="slider__label">ваш выбор</p>
               <p className="slider__productname">Hoco W22</p>
             </div>
-            <button className="slider__button">Купить</button>
+            <SliderButton>Купить</SliderButton>
           </div>
 
           <div className="slider__photo">
