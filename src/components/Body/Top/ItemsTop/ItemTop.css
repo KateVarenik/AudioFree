@@ -1,0 +1,13 @@
+.item-top {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 0px 10.5556px rgba(0, 0, 0, 0.05);
+  border-radius: 9.5px;
+  padding: 27px 20px 27px 7px;
+}
+
+.item-top__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,66 +1,42 @@
 import "./CardProduct.css";
 import InStock from "./InStock/InStock";
-import Compare from "../../Icons/Compare";
-import Heart from "../../Icons/Heart";
-import Star from "../../Icons/Star/Star";
-import { useState } from "react";
 import PurpleButton from "../../Buttons/PurpleButton";
 import WhiteGrayButton from "../../Buttons/WhiteGrayButton";
+import CompareButton from "../../Buttons/CompareButton";
+import FavoriteButton from "../../Buttons/FavoriteButton";
+import Price from "./Price/Price";
+import Rating from "./Rating/Rating";
+import Title from "./Title/Title";
+import Photo from "./Photo/Photo";
+import CardWrapper from "../CardWrapper";
 
-export default function CardProduct({ price, title, rate, currency, image }) {
-  const [isFavorite, setIsFavorite] = useState(false);
-  const [isCompare, setIsCompare] = useState(false);
-
+export default function CardProduct({
+  title,
+  rate,
+  image,
+  currency,
+  price,
+  className,
+}) {
   return (
-    <div className="card">
+    <CardWrapper className="card__product">
       <div className="card__top">
         <InStock />
         <div className="card__top-buttons">
-          <button
-            className={`card__top-button ${isCompare && "active"}`}
-            onClick={() => setIsCompare((prevIsCompare) => !prevIsCompare)}
-          >
-            <Compare />
-          </button>
-          <button
-            className={`card__top-button ${isFavorite && "active"}`}
-            onClick={() => setIsFavorite((prevIsFavorite) => !prevIsFavorite)}
-          >
-            <Heart />
-          </button>
+          <CompareButton />
+          <FavoriteButton />
         </div>
       </div>
-      <div className="card__photo">
-        <img src={image} alt={title} />
-      </div>
-      <div className="cart__title">
-        <p>{title}</p>
-      </div>
+      <Photo image={image} title={title} />
+      <Title title={title} />
       <div className="card__info">
-        <div className="card__info-rating">
-          {Array(5)
-            .fill("")
-            .map((_, i) => (
-              <Star key={i} className={rate > i ? "yellow" : "gray"} />
-            ))}
-        </div>
-        <div
-          className="card__info-price"
-          style={{ fontSize: price.toString().length > 6 ? "22px" : "24px" }}
-        >
-          <span>
-            {new Intl.NumberFormat("ru-RU", {
-              style: "currency",
-              currency: currency,
-              maximumFractionDigits: 0,
-            }).format(price)}
-          </span>
-        </div>
+        <Rating rate={rate} />
+        <Price currency={currency} price={price} />
       </div>
       <div className="card__buttons">
         <PurpleButton>Купить в 1 клик</PurpleButton>
         <WhiteGrayButton>В корзину</WhiteGrayButton>
       </div>
-    </div>
+    </CardWrapper>
   );
 }

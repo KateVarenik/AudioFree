@@ -7,7 +7,7 @@ export default function SamsungIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0)">
+      <g clipPath="url(#clip0)">
         <path
           d="M38.9761 17.3266C38.1717 12.3305 18.7648 13.1135 6.56314 18.6413L5.59347 19.0994C1.91079 20.9179 -0.253865 22.938 0.0238576 24.6731C0.833184 29.7043 20.4159 28.8571 32.5464 23.3084L33.9929 22.6017C37.3173 20.8619 39.2391 18.9679 38.9761 17.3266Z"
           fill="currentColor"

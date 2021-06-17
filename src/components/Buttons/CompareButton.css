@@ -1,0 +1,25 @@
+.card__top-button {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  box-sizing: border-box;
+  background: #eeeeee;
+  border-radius: 22px;
+  cursor: pointer;
+  margin-left: 11px;
+  font-size: 22px;
+  color: #464646;
+  transition: 0.3s;
+}
+
+.card__top-button:hover {
+  background-color: #def7dd;
+}
+
+.card__top-button.active {
+  color: #fff;
+  background-color: #0db10a;
+}
