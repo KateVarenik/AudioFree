@@ -23,26 +23,24 @@
 
 .header__logo-name {
   position: relative;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  margin-left: 9px;
-  margin-right: 9px;
-  padding-right: 10px;
-}
-
-.header__logo-name::before {
-  content: "|";
-  position: absolute;
-  right: 0;
-  top: 0;
-  color: #fff;
 }
 
 .header__logo-description {
+  position: relative;
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
+  padding-left: 10px;
+}
+
+.header__logo-description::before {
+  content: "|";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .header__info-menu {

@@ -19,8 +19,7 @@ export default function HeaderBody() {
               Бесплатный звонок по РФ
             </span>
             <a href="tel:88005519202" className="header__phone-number">
-              {" "}
-              8 800 551-92-02{" "}
+              8 800 551-92-02
             </a>
           </div>
         </div>
@@ -30,7 +29,7 @@ export default function HeaderBody() {
         </div>
         <div className="header__statusbar">
           <div className="header__statusbar-item compare">
-            <Compare />
+            <Compare style={{ fontSize: "21px" }} />
             <span className="header__statusbar-item-quantity compare__quantity">
               10
             </span>

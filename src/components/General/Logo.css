@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 9px;
+  margin-right: 9px;
+  color: #fff;
+}

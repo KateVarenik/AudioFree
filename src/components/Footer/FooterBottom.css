@@ -1,0 +1,21 @@
+.footer-bottom {
+  background-color: #180e35;
+}
+
+.footer-bottom__container {
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.footer-bottom__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.footer-bottom__item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}

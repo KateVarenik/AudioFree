@@ -1,11 +1,17 @@
 import Body from "../../components/Body/BodyMain/Body";
-import Header from "../../components/Header/header/Header";
+import FooterGeneral from "../../components/Footer/FooterGeneral/FooterGeneral";
+import HeaderBody from "../../components/Header/headerBody/HeaderBody";
+import HeaderInfo from "../../components/Header/headerInfo/HeaderInfo";
+import HeaderNav from "../../components/Header/headerNav/HeaderNav";
 
 export const Home = () => {
   return (
     <div>
-      <Header />
+      <HeaderInfo />
+      <HeaderBody />
+      <HeaderNav />
       <Body />
+      <FooterGeneral />
     </div>
   );
 };
