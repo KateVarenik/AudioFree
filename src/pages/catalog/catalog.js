@@ -21,7 +21,7 @@ export const Catalog = () => {
 
           <div className="catalog-grid__right-column">
             <div className="catalog-grid__head">
-              <div className="catalog-grid__breadcrumb">
+              <div className="catalog-grid__breadcrumb breadcrumb">
                 <Link to="/">Главная</Link>
                 &nbsp; / &nbsp;
                 <Link to="/catalog">Каталог</Link>

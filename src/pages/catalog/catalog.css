@@ -46,14 +46,6 @@
   grid-column: span 3;
 }
 
-.catalog-grid__breadcrumb,
-.catalog-grid__breadcrumb a {
-  font-size: 12px;
-  line-height: 14px;
-  color: #b3b3b3;
-  text-decoration: none;
-}
-
 .catalog-grid__header-group {
   display: flex;
   align-items: center;

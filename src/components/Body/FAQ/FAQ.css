@@ -15,6 +15,6 @@
 .faq__tabs {
   position: relative;
   display: flex;
-  background: rgba(255, 255, 255, 0.8);
+  background: #8a75c8;
   border-radius: 9px;
 }

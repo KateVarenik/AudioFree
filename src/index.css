@@ -10,6 +10,7 @@ body {
 
 .container {
   max-width: 1172px;
+  width: 100%;
   padding-left: 32px;
   padding-right: 32px;
   margin-right: auto;
@@ -43,4 +44,17 @@ h4 {
   font-size: 20px;
   line-height: 143.19%;
   color: #353535;
+}
+
+.breadcrumb,
+.breadcrumb a {
+  font-size: 12px;
+  line-height: 14px;
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.breadcrumb a:hover {
+  color: #808080;
 }
