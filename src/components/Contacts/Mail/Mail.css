@@ -1,0 +1,37 @@
+.contacts__mail {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__mail-image {
+  width: 40px;
+  height: 40px;
+  background: #97d513;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: inherit;
+}
+
+.contacts__mail-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts__mail-label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.contacts__mail-adress {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: inherit;
+  text-decoration: none;
+}

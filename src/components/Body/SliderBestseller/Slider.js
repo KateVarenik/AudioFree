@@ -1,18 +1,24 @@
 import Photo1 from "../../../img/imageMainSlider.png";
 import Photo2 from "../../../img/imageMainSlider2.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination } from "swiper";
+import SwiperCore, { Autoplay, Pagination } from "swiper";
 import "swiper/swiper.scss";
 import "swiper/components/pagination/pagination.scss";
+import "swiper/components/effect-fade/effect-fade.min.css";
 import "./Slider.css";
 import SliderButton from "../../Buttons/SliderButton";
 
-SwiperCore.use([Pagination]);
+SwiperCore.use([Autoplay, Pagination]);
 
 export default function SliderBestseller() {
   return (
     <div className="slider">
       <Swiper
+        speed={800}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}

@@ -10,17 +10,13 @@
   gap: 30px;
 }
 
-.catalog-grid__left-column {
-  display: grid;
-  gap: 30px;
-}
-
 .catalog__filter {
   position: relative;
   background: #ffffff;
   box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.1);
   border-radius: 9.5px;
   padding: 25px 15px;
+  margin-bottom: 36px;
 }
 
 .catalog__filter:first-child::before {
@@ -58,6 +54,7 @@
   box-sizing: border-box;
   border-radius: 9px;
   padding: 10px 15px 10px 20px;
+  cursor: pointer;
 }
 
 .catalog-grid__header-select select {
@@ -65,4 +62,5 @@
   line-height: 19px;
   color: #8b75c8;
   border: none;
+  cursor: inherit;
 }

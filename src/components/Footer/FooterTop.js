@@ -7,9 +7,9 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faViber } from "@fortawesome/free-brands-svg-icons";
 import "./FooterTop.css";
 import arrow from "../../img/arrow.svg";
-import phone from "../../img/contact.svg";
-import place from "../../img/place.svg";
-import email from "../../img/mail.svg";
+import Phone from "../Contacts/Phone/Phone";
+import Adress from "../Contacts/Adress/Adress";
+import Mail from "../Contacts/Mail/Mail";
 
 export default function FooterTop() {
   return (
@@ -19,16 +19,24 @@ export default function FooterTop() {
           <div className="footer-top__title">Личный кабинет</div>
           <ul>
             <li>
-              <Link to="/">Зарегистрироваться</Link>
+              <Link to="/" className="footer-top__col-link">
+                Зарегистрироваться
+              </Link>
             </li>
             <li>
-              <Link to="/">Войти в аккаунт</Link>
+              <Link to="/" className="footer-top__col-link">
+                Войти в аккаунт
+              </Link>
             </li>
             <li>
-              <Link to="/">Отложенные товары</Link>
+              <Link to="/" className="footer-top__col-link">
+                Отложенные товары
+              </Link>
             </li>
             <li>
-              <Link to="/">Ваши заказы</Link>
+              <Link to="/" className="footer-top__col-link">
+                Ваши заказы
+              </Link>
             </li>
           </ul>
           <div className="footer-top__call">
@@ -49,22 +57,34 @@ export default function FooterTop() {
           <div className="footer-top__title">Категории</div>
           <ul>
             <li>
-              <Link to="/">TRUE WIRELESS</Link>
+              <Link to="/" className="footer-top__col-link">
+                TRUE WIRELESS
+              </Link>
             </li>
             <li>
-              <Link to="/">Гарнитуры</Link>
+              <Link to="/" className="footer-top__col-link">
+                Гарнитуры
+              </Link>
             </li>
             <li>
-              <Link to="/">Накладные</Link>
+              <Link to="/" className="footer-top__col-link">
+                Накладные
+              </Link>
             </li>
             <li>
-              <Link to="/">Полноразмерные</Link>
+              <Link to="/" className="footer-top__col-link">
+                Полноразмерные
+              </Link>
             </li>
             <li>
-              <Link to="/">С проводом</Link>
+              <Link to="/" className="footer-top__col-link">
+                С проводом
+              </Link>
             </li>
             <li>
-              <Link to="/">С шейным ободком</Link>
+              <Link to="/" className="footer-top__col-link">
+                С шейным ободком
+              </Link>
             </li>
           </ul>
         </div>
@@ -72,75 +92,48 @@ export default function FooterTop() {
           <div className="footer-top__title">Магазин</div>
           <ul>
             <li>
-              <Link to="/">О компании</Link>
+              <Link to="/" className="footer-top__col-link">
+                О компании
+              </Link>
             </li>
             <li>
-              <Link to="/delivery">Доставка и оплата</Link>
+              <Link to="/delivery" className="footer-top__col-link">
+                Доставка и оплата
+              </Link>
             </li>
             <li>
-              <Link to="/guarantee">Гарантия и возврат</Link>
+              <Link to="/guarantee" className="footer-top__col-link">
+                Гарантия и возврат
+              </Link>
             </li>
             <li>
-              <Link to="/pickup">Пункты самовывоза</Link>
+              <Link to="/pickup" className="footer-top__col-link">
+                Пункты самовывоза
+              </Link>
             </li>
             <li>
-              <Link to="/">Отзывы</Link>
+              <Link to="/" className="footer-top__col-link">
+                Отзывы
+              </Link>
             </li>
             <li>
-              <Link to="/blog">Блог</Link>
+              <Link to="/blog" className="footer-top__col-link">
+                Блог
+              </Link>
             </li>
             <li>
-              <Link to="/contacts">Контакты</Link>
+              <Link to="/contacts" className="footer-top__col-link">
+                Контакты
+              </Link>
             </li>
           </ul>
         </div>
         <div className="footer-top__col">
           <div className="footer-top__title">Контакты</div>
           <div className="footer-top__contacts">
-            <div className="footer-top__contacts-item">
-              <a href="tel:88005519202" className="footer-top__phone-image">
-                <img src={phone} alt="Phone" />
-              </a>
-
-              <div className="footer-top__phone-text">
-                <span className="footer-top__phone-description">
-                  Бесплатный звонок по РФ
-                </span>
-                <a href="tel:88005519202" className="footer-top__phone-number">
-                  8 800 551-92-02
-                </a>
-              </div>
-            </div>
-            <div className="footer-top__contacts-item">
-              <div className="footer-top__adress-image">
-                <img src={place} alt="Place" />
-              </div>
-
-              <div className="footer-top__contacts-text">
-                <p className="footer-top__adress-city">Санкт-Петербург,</p>
-                <p className="footer-top__adress-street">Дачный пр. 21</p>
-              </div>
-            </div>
-            <div className="footer-top__contacts-item">
-              <a
-                href="mailto:hello@audiofree.ru"
-                className="footer-top__email-image"
-              >
-                <img src={email} alt="email" />
-              </a>
-
-              <div className="footer-top__contacts-text">
-                <p className="footer-top__email-label">
-                  По всем вопросам пишите:
-                </p>
-                <a
-                  href="mailto:hello@audiofree.ru"
-                  className="footer-top__email-adress"
-                >
-                  hello@audiofree.ru
-                </a>
-              </div>
-            </div>
+            <Phone className="footer-top__contacts-phone" />
+            <Adress className="footer-top__adress-dark" />
+            <Mail className="footer-top__mail-dark" />
 
             <div className="footer-top__social">
               <Link to="/">

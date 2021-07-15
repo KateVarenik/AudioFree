@@ -27,10 +27,8 @@ export default function Top() {
               </CardWrapper>
             ))}
         </div>
-        <Link to="/catalog" className="top__button">
-          <PurpleButton
-            style={{ margin: "0 auto", fontSize: "18px", padding: "26px 55px" }}
-          >
+        <Link to="/catalog" className="top__button-link">
+          <PurpleButton className="top__button">
             Смотреть больше моделей
           </PurpleButton>
         </Link>
