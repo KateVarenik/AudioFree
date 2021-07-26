@@ -7,3 +7,10 @@
 .filter-title__button {
   cursor: pointer;
 }
+
+.filter-title__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 143.19%;
+  color: #353535;
+}

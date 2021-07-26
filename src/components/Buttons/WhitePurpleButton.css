@@ -1,0 +1,22 @@
+.button__white-purple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border: 2px solid #8b75c8;
+  box-sizing: border-box;
+  border-radius: 220px;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  color: #393939;
+  transition: 0.3s;
+}
+
+.button__white-purple:hover {
+  background-color: rgba(139, 117, 200, 0.1);
+}
+
+.button__white-purple:active {
+  background-color: rgba(139, 117, 200, 0.25);
+}

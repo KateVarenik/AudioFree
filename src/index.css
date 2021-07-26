@@ -41,9 +41,16 @@ h3 {
 
 h4 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 143.19%;
   color: #353535;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: #e0e0e0;
 }
 
 .breadcrumb,
