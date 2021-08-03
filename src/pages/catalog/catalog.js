@@ -57,7 +57,7 @@ export const Catalog = () => {
                 <div className="catalog__filter-block">
                   <h4 className="catalog__filter-subtitle">Цена, ₽</h4>
                   <div className="catalog__filter-price">
-                    <SliderRange></SliderRange>
+                    <SliderRange />
                   </div>
                 </div>
                 <hr />
