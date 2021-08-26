@@ -1,0 +1,67 @@
+.slider-s {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 46px 0 0;
+  background-color: #8b75c8;
+}
+
+.slider__decoration-s {
+  max-width: 307px;
+  height: 295px;
+  border: 10px solid #937fcc;
+}
+
+.slider__decoration-s::before {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.slider__label {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8772c2;
+}
+
+.slider__productname {
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #8772c2;
+}
+
+.slider-s .slider__photo {
+  max-width: 165px;
+}
+
+.slider-s .swiper-slide {
+  padding-bottom: 37px;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 13px;
+}
+
+.slider-s .swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: #784e96;
+  opacity: 1;
+  margin: 0 2px;
+}
+
+.slider-s .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  border: 1px solid #784e96;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+.slider__button-s {
+  padding: 18px 95px;
+  font-size: 12px;
+  line-height: 14px;
+}

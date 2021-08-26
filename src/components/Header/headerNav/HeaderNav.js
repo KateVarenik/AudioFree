@@ -16,7 +16,7 @@ const MENU = [
 export default function HeaderNav() {
   return (
     <div className="header__nav">
-      <div className="header__container container">
+      <div className="header__container container-l">
         <Link to="/catalog" className="header__catalog">
           <img src={menuButton} alt="" className="header__catalog-button" />
           <span className="header__catalog-label">Каталог товаров</span>

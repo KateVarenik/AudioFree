@@ -1,0 +1,27 @@
+.interface__more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 78px;
+  padding-right: 38px;
+  max-width: 268px;
+  width: 100%;
+  min-height: 100px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 9px;
+  background: url("../../../img/moreModels.jpg") 0 0 / cover no-repeat;
+}
+
+.interface__more-s {
+  max-width: 175px;
+  font-size: 12px;
+  line-height: 14px;
+  padding-left: 54px;
+  padding-right: 13px;
+  min-height: 0;
+}

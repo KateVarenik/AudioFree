@@ -18,7 +18,7 @@ export function Contacts() {
       <HeaderBody />
       <HeaderNav />
 
-      <div className="contacts__container container">
+      <div className="contacts__container container-l">
         <div className="delivery__breadcrumb breadcrumb">
           <Link to="/">Главная</Link>
           &nbsp; / &nbsp;

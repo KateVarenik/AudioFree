@@ -1,9 +1,10 @@
 import "./Star.css";
+import { isMobile } from "react-device-detect";
 
 export default function Star({ className }) {
   return (
     <svg
-      width="1em"
+      width={isMobile ? "10px" : "1em"}
       height="1em"
       viewBox="0 0 14 15"
       fill="none"

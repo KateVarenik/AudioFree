@@ -18,7 +18,7 @@ export const Catalog = () => {
       <HeaderInfo />
       <HeaderBody />
       <HeaderNav />
-      <div className="catalog__container container">
+      <div className="catalog__container container-l">
         <div className="catalog-grid">
           <div className="catalog-grid__left-column">
             <CardWrapper className="catalog__filter">

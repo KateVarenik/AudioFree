@@ -8,7 +8,7 @@ import Basket from "../../Icons/Basket";
 export default function HeaderBody() {
   return (
     <div className="header__body">
-      <div className="header__body-container container">
+      <div className="header__body-container container-l">
         <div className="header__phone">
           <a href="tel:88005519202" className="header__phone-image">
             <img src={phone} alt="Phone" />

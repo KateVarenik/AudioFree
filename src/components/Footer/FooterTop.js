@@ -14,7 +14,7 @@ import Mail from "../Contacts/Mail/Mail";
 export default function FooterTop() {
   return (
     <div className="footer-top">
-      <div className="footer-top__container container">
+      <div className="footer-top__container container-l">
         <div className="footer-top__col">
           <div className="footer-top__title">Личный кабинет</div>
           <ul>

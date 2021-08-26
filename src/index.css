@@ -8,7 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+.container-l {
   max-width: 1172px;
   width: 100%;
   padding-left: 32px;
@@ -16,6 +16,16 @@ body {
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
+}
+
+.container-s {
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 h1 {

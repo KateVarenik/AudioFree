@@ -20,7 +20,7 @@ export const Guarantee = () => {
       <HeaderInfo />
       <HeaderBody />
       <HeaderNav />
-      <div className="guarantee__container container">
+      <div className="guarantee__container container-l">
         <div className="guarantee__breadcrumb breadcrumb">
           <Link to="/">Главная</Link>
           &nbsp; / &nbsp;

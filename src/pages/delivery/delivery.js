@@ -21,7 +21,7 @@ export const Delivery = () => {
       <HeaderInfo />
       <HeaderBody />
       <HeaderNav />
-      <div className="delivery__container container">
+      <div className="delivery__container container-l">
         <div className="delivery__breadcrumb breadcrumb">
           <Link to="/">Главная</Link>
           &nbsp; / &nbsp;

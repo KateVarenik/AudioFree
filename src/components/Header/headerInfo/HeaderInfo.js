@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import Logo from "../../General/Logo";
+import Logo from "../../General/Logo/Logo";
 import "./HeaderInfo.css";
 
 export default function HeaderInfo() {
   return (
     <div className="header__info">
-      <div className="header__info-container container">
+      <div className="header__info-container container-l">
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="header__logo">
             <Logo className="header__logo-name" />
