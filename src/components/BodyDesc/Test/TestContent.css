@@ -1,0 +1,13 @@
+.test__content {
+  max-width: 412px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 52px;
+}
+
+.test__content span {
+  font-weight: 900;
+  color: #adff00;
+}

@@ -4,17 +4,23 @@
 // import Top from "../Top/Top";
 // import Odds from "../Odds/Odds";
 // import Consult from "../Consult/Consult";
+import FaqMob from "../FAQ/FAQ";
 import InterfaceMob from "../Interface/InterfaceMob";
+import OddsMob from "../Odds/Odds";
 import SliderBestsellerMob from "../SliderBestseller/Slider";
+import TestMob from "../Test/Test";
+import TopMob from "../Top/Top";
 
 export default function BodyMobile() {
   return (
     <>
       <SliderBestsellerMob />
       <InterfaceMob />
-      {/* <Test />
-      <Top />
-      <Faq />
+      <TestMob />
+      <TopMob />
+      <FaqMob />
+      <OddsMob />
+      {/* 
       <Odds />
       <Consult /> */}
     </>

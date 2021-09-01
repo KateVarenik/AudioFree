@@ -1,0 +1,22 @@
+.top-s {
+  background: #f8f5fe;
+}
+
+.top__container-s {
+  padding-top: 58px;
+  padding-bottom: 42px;
+}
+
+.top__content-s {
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.top__subtitle-bold {
+  font-weight: bold;
+}
+
+.tob__slider {
+  margin-bottom: 18px;
+}

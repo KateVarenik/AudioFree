@@ -6,9 +6,9 @@ import MoreModels from "../../BodyDesc/Interface/MoreModels";
 import CardProductMob from "../../Catalog/CardProduct/CardProductMob";
 import MainTitle from "../../General/Title/MainTitle";
 import Subtitle from "../../General/Title/Subtitle";
-import Slide from "../../../img/slide.svg";
 
 import "./InterfaceMob.css";
+import SlideIcon from "../../Icons/Slide/SlideIcon";
 
 export default function InterfaceMob(props) {
   const [filterArr, setFiltredArr] = useState([]);
@@ -50,9 +50,7 @@ export default function InterfaceMob(props) {
         </Swiper>
       </div>
 
-      <div className="interface__slider-pointer">
-        <img src={Slide} alt="Потяните вправо" />
-      </div>
+      <SlideIcon />
     </div>
   );
 }

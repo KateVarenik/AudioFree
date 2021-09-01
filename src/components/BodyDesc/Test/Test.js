@@ -1,20 +1,16 @@
 import GreenButton from "../../Buttons/GreenButton";
 import "./Test.css";
-import man from "../../../img/testMan.png";
+import TestTitle from "./TestTitle";
+import TestContent from "./TestContent";
+import TestImage from "./TestImage";
 
 export default function Test() {
   return (
     <div className="test">
       <div className="test__container container-l">
         <div className="test__leftcol">
-          <h3 className="test__title">
-            <span>Подберем 5 лучших моделей </span>беспроводных наушников под
-            Ваши цели
-          </h3>
-          <p className="test__content">
-            Пройдите тест и получите <span>скидку до 10% </span> на первую
-            покупку
-          </p>
+          <TestTitle />
+          <TestContent />
           <GreenButton
             style={{
               fontSize: "18px",
@@ -25,11 +21,7 @@ export default function Test() {
             Пройти тест и получить скидку!
           </GreenButton>
         </div>
-        <div className="test__rightcol">
-          <div className="test__rightcol-img">
-            <img src={man} alt="" />
-          </div>
-        </div>
+        <TestImage />
       </div>
     </div>
   );

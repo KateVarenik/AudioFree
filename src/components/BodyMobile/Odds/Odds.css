@@ -1,0 +1,53 @@
+.odds__container-s {
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.odds__content-s {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.odds__text-s {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #434343;
+  margin-top: 25px;
+}
+
+.odds__items-s {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3px;
+  row-gap: 10px;
+}
+
+.odds__item-s:last-child {
+  grid-column: span 2;
+}
+
+.odds__item-s {
+  display: grid;
+  gap: 23px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 9px;
+  text-align: center;
+  padding: 18px 12px;
+}
+
+.odds__item-title-s {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #525252;
+}
+
+.odds__item-text-s {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #525252;
+}

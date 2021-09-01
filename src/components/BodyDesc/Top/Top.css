@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 
-.top__button {
+.top__button-link .top__button {
   margin: 0 auto;
   font-size: 18px;
   padding: 26px 55px;
