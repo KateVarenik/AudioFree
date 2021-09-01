@@ -7,6 +7,7 @@ import HeaderMobile from "../../components/Header/HeaderMobile/HeaderMobile";
 import HeaderNav from "../../components/Header/headerNav/HeaderNav";
 import BodyDesk from "../../components/BodyDesc/BodyMain/Body";
 import BodyMobile from "../../components/BodyMobile/BodyMain/Body";
+import FooterMobile from "../../components/Footer/FooterMobile/FooterMobile";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
         <>
           <HeaderMobile />
           <BodyMobile />
+          <FooterMobile />
         </>
       ) : (
         <>

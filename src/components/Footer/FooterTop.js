@@ -135,7 +135,7 @@ export default function FooterTop() {
             <Adress className="footer-top__adress-dark" />
             <Mail className="footer-top__mail-dark" />
 
-            <div className="footer-top__social">
+            <div className="footer__social">
               <Link to="/">
                 <FontAwesomeIcon icon={faVk} />
               </Link>
