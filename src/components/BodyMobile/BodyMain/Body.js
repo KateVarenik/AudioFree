@@ -1,9 +1,4 @@
-// import Faq from "../FAQ/FAQ";
-// import Interface from "../Interface/Interface";
-// import Test from "../Test/Test";
-// import Top from "../Top/Top";
-// import Odds from "../Odds/Odds";
-// import Consult from "../Consult/Consult";
+import ConsultMob from "../Consult/Consult";
 import FaqMob from "../FAQ/FAQ";
 import InterfaceMob from "../Interface/InterfaceMob";
 import OddsMob from "../Odds/Odds";
@@ -20,9 +15,7 @@ export default function BodyMobile() {
       <TopMob />
       <FaqMob />
       <OddsMob />
-      {/* 
-      <Odds />
-      <Consult /> */}
+      <ConsultMob />
     </>
   );
 }

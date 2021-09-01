@@ -1,0 +1,31 @@
+.consult__container-s {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.consult__content-s {
+  text-align: center;
+  color: #fff;
+}
+
+.consult__content-s .consult__subtitle-s {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 29px;
+}
+
+.consult__text-s {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.consult__image-wrapper {
+  margin: 0 auto;
+  max-width: 294px;
+}
+
+.consult__image-wrapper img {
+  max-width: 100%;
+  object-fit: cover;
+}
