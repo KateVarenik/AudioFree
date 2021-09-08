@@ -1,0 +1,12 @@
+.breadcrumb,
+.breadcrumb a {
+  font-size: 12px;
+  line-height: 14px;
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.breadcrumb a:hover {
+  color: #808080;
+}

@@ -1,6 +1,5 @@
 import "./HeaderBody.css";
 import phone from "../../../img/phoneIcon.svg";
-import searchIcon from "../../../img/searchIcon.svg";
 import Compare from "../../Icons/Compare";
 import Heart from "../../Icons/Heart";
 import Basket from "../../Icons/Basket";
@@ -23,10 +22,12 @@ export default function HeaderBody() {
             </a>
           </div>
         </div>
-        <div className="header__search">
-          <img src={searchIcon} alt="Search" />
-          <input type="text" placeholder="Поиск товара" />
-        </div>
+        <input
+          className="header__search"
+          type="text"
+          placeholder="Поиск товара"
+        />
+
         <div className="header__statusbar">
           <div className="header__statusbar-item compare">
             <Compare style={{ fontSize: "21px" }} />
