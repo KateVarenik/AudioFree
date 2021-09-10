@@ -1,0 +1,21 @@
+.contacts-mob__container {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.contacts-mob__data {
+  padding: 26px 10px 30px;
+}
+
+.contacts-mob__data hr {
+  margin-left: -18px;
+  width: 120%;
+}
+
+.contacts-mob__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
