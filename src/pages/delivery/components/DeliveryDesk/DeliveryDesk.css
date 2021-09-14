@@ -116,8 +116,10 @@
   padding: 20px;
 }
 
-.delivery__payment-image {
-  max-width: 100%;
+.delivery__payment-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .delivery__payment-text {

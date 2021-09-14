@@ -4,7 +4,9 @@ import { isMobile } from "react-device-detect";
 export default function PageTitle(props) {
   return (
     <h1
-      className={isMobile ? "pageTitle-mob" : "pageTitle"}
+      className={`${isMobile ? "pageTitle-mob" : "pageTitle"} ${
+        props.className
+      }`}
       style={props.style}
     >
       {props.children}

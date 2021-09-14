@@ -5,6 +5,7 @@ import Adress from "../../../../components/Contacts/Adress/Adress";
 import Entity from "../../../../components/Contacts/Entity/Entity";
 import Mail from "../../../../components/Contacts/Mail/Mail";
 import Phone from "../../../../components/Contacts/Phone/Phone";
+import PageTitle from "../../../../components/General/Title/PageTitle";
 import "./ContactsDesc.css";
 
 export default function ContactsDesc() {
@@ -18,7 +19,8 @@ export default function ContactsDesc() {
 
       <CardWrapper className="contacts__info">
         <div className="contacts__data">
-          <h1 className="contacts__title">Контакты</h1>
+          <PageTitle style={{ marginBottom: "28px" }}>Контакты</PageTitle>
+
           <Phone className="contacts__phone-dark" />
           <hr />
           <Adress className="contacts__white" />
