@@ -36,10 +36,15 @@
 }
 
 .menu-mobile__menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   margin-right: 16px;
   width: 23px;
   height: 20px;
+  font-size: 18px;
+  color: #251c41;
 }
 
 .menu-mobile__search {

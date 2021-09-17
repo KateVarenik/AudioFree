@@ -73,6 +73,10 @@
   color: #494949;
 }
 
+.faq__tabs-s .MuiAccordion-root.Mui-expanded {
+  margin: 4px 0;
+}
+
 .faq__tabs-link-s {
   justify-content: center;
 }
