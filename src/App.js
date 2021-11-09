@@ -1,4 +1,4 @@
-import Routes from "./components/rotes";
+import Routes from "./node_modules/components/rotes";
 
 function App() {
   return <Routes />;
