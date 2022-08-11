@@ -28,6 +28,10 @@ body {
   box-sizing: border-box;
 }
 
+body .link-disable {
+  cursor: not-allowed;
+}
+
 h1 {
   font-weight: bold;
   font-size: 36px;
