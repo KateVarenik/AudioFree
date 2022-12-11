@@ -1,0 +1,2 @@
+(this["webpackJsonpneuro-trainers"]=this["webpackJsonpneuro-trainers"]||[]).push([[0],{193:function(e,n,t){"use strict";t.r(n);var r=t(1),c=t.n(r),s=t(16),i=t.n(s),j=t(3),o=(t(69),t(70),t(42)),a=t(12),u=t(58),b=t(0);var d=function(){return Object(b.jsx)(u.a,{})};i.a.render(Object(b.jsx)(c.a.StrictMode,{children:Object(b.jsx)(j.a,{children:Object(b.jsx)(o.a,{children:Object(b.jsx)(a.b,{children:Object(b.jsx)(d,{})})})})}),document.getElementById("root"))},69:function(e,n,t){},70:function(e,n,t){}},[[193,1,2]]]);
+//# sourceMappingURL=main.c699c552.chunk.js.map

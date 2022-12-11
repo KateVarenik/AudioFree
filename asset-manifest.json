@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/AudioFree/static/css/main.aa2a6726.chunk.css",
-    "main.js": "/AudioFree/static/js/main.a5a43dcf.chunk.js",
-    "main.js.map": "/AudioFree/static/js/main.a5a43dcf.chunk.js.map",
+    "main.js": "/AudioFree/static/js/main.c699c552.chunk.js",
+    "main.js.map": "/AudioFree/static/js/main.c699c552.chunk.js.map",
     "runtime-main.js": "/AudioFree/static/js/runtime-main.42ca98fc.js",
     "runtime-main.js.map": "/AudioFree/static/js/runtime-main.42ca98fc.js.map",
     "static/css/2.3f9c75cf.chunk.css": "/AudioFree/static/css/2.3f9c75cf.chunk.css",
-    "static/js/2.48825dd8.chunk.js": "/AudioFree/static/js/2.48825dd8.chunk.js",
-    "static/js/2.48825dd8.chunk.js.map": "/AudioFree/static/js/2.48825dd8.chunk.js.map",
+    "static/js/2.73d65199.chunk.js": "/AudioFree/static/js/2.73d65199.chunk.js",
+    "static/js/2.73d65199.chunk.js.map": "/AudioFree/static/js/2.73d65199.chunk.js.map",
     "index.html": "/AudioFree/index.html",
     "static/css/2.3f9c75cf.chunk.css.map": "/AudioFree/static/css/2.3f9c75cf.chunk.css.map",
     "static/css/main.aa2a6726.chunk.css.map": "/AudioFree/static/css/main.aa2a6726.chunk.css.map",
-    "static/js/2.48825dd8.chunk.js.LICENSE.txt": "/AudioFree/static/js/2.48825dd8.chunk.js.LICENSE.txt",
+    "static/js/2.73d65199.chunk.js.LICENSE.txt": "/AudioFree/static/js/2.73d65199.chunk.js.LICENSE.txt",
     "static/media/404.1e6fec78.svg": "/AudioFree/static/media/404.1e6fec78.svg",
     "static/media/arrow.74cece0d.svg": "/AudioFree/static/media/arrow.74cece0d.svg",
     "static/media/bags.c509d002.svg": "/AudioFree/static/media/bags.c509d002.svg",
@@ -75,8 +75,8 @@
   "entrypoints": [
     "static/js/runtime-main.42ca98fc.js",
     "static/css/2.3f9c75cf.chunk.css",
-    "static/js/2.48825dd8.chunk.js",
+    "static/js/2.73d65199.chunk.js",
     "static/css/main.aa2a6726.chunk.css",
-    "static/js/main.a5a43dcf.chunk.js"
+    "static/js/main.c699c552.chunk.js"
   ]
 }
